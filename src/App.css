@@ -1,0 +1,59 @@
+body{
+  background-image: linear-gradient(120deg, #c9e7c4, #c37664);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-app{
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.common-style{
+  justify-content: center;
+  display: grid;
+  grid-gap: 15px;
+}
+
+.row-label{
+  grid-template-columns: 50px;
+}
+
+.main-square{
+  grid-template-columns: 50px 50px 50px;
+}
+
+.square{
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.square > p {
+  font-size: 15px;
+  font-family: system-ui;
+}
+
+button{
+  width: 100px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+small{
+  font-style: italic;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
